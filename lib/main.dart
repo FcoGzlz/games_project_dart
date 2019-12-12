@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       routes: {
         HomePage.routeName : (context) => HomePage(),
         PeliculaDetallePage.routeName : (context) => PeliculaDetallePage(),
-        GamesDetailPage.routeName : (context) => GamesDetailPage()
+        GamesDetailPage.routeName : (context) => GamesDetailPage(),
 
       },
     );

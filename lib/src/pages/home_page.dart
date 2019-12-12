@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Películas en cines'),
+        title: Text('Juegos más esperados del 2019'),
       ),
       body:Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -46,7 +46,7 @@ class HomePage extends StatelessWidget {
       future:gamesProvider.getMasEsperados(),
       builder: (BuildContext context, AsyncSnapshot <List>snapshot) {
         if(snapshot.hasData){
-          print(snapshot.data);
+          // print(snapshot.data);
           return GamesSwiper(games: snapshot.data,);
         }else{
           return Container(
