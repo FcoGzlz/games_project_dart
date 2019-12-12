@@ -27,7 +27,7 @@ class GamesDetailPage extends StatelessWidget {
                         width: MediaQuery.of(context).size.width*0.5,
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: <Widget>[Text('Genero', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20) , )],
+                          children: <Widget>[Text('Género', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20) , )],
                           
                         ),
                       ),

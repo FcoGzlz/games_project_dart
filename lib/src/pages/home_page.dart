@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Juegos más esperados del 2019'),
+        title: Text('Próximos lanzamientos'),
       ),
       body:Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
